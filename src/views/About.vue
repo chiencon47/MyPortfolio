@@ -4,9 +4,12 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
-      </div>
+        I'm <strong>Chien</strong>, a passionate Unity Developer with 1.5 years of experience.<br/>
+        I specialize in developing and optimizing gameplay using C# and Unity, creating stunning particle effects, and designing intuitive UI.<br/>
+        I also have experience working with Shaders, Client-Server systems, Firebase integration, and AdMob monetization.<br/>
+        Beyond coding, I enjoy exploring new design tools like Figma, Photoshop, and Illustrator to enhance user experience.
+    </div>
+
 
       <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
 
