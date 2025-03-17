@@ -18,6 +18,7 @@
     You can reach me at <a href="mailto:letrongchien472002@gmail.com">letrongchien472002@gmail.com</a>  
     or <router-link to="/contact">through here</router-link>.
     </div>
+    </div>
 
     <div class="photo">
       <img src="img/avatar.png" alt="Avatar of John" /> 
@@ -25,7 +26,6 @@
 
     <div style="clear:both"></div>
 
-  </div>
   </div>
 </template>
 
