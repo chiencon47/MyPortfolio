@@ -8,11 +8,11 @@ export default [
      <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://youtube.com/shorts/pjmU-fdNeWk" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
+    // <div class="paragraph center">
+    //     <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+    // </div>
 
     <div class="paragraph">
         Main features :
@@ -35,7 +35,7 @@ export default [
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://youtu.be/g0jov2END8E?si=7NQ_dcQwYqnYLsj-" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -122,7 +122,7 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "Merge Cube", "img/projects/project-5-icon.png", `
     <div class="paragraph">
         <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
