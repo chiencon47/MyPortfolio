@@ -29,7 +29,7 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
     `, "#23bd69", true),
-    new ProjectData("project-2", "Flower Shop", "img/projects/project-2-icon.png", `
+    new ProjectData("project-2", "Flower Shop", "img/projects/flower-shop.png", `
     <div class="paragraph">
         <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
@@ -62,7 +62,7 @@ export default [
     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "Color the flag", "img/projects/project-3-icon.png", `
     <div class="paragraph">
         <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
         <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
@@ -95,7 +95,7 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "2248", "img/projects/project-4-icon.png", `
     <div class="paragraph">
     <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
     <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
