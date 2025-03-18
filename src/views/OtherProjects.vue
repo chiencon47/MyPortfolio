@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Other Project</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      And here are some of my personal projects when I first started learning game making.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

@@ -3,7 +3,7 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>[Your Name]</strong>, a Unity Developer with 1.5 years of experience in game development.
+      I'm <strong>[Le Trong Chien]</strong>, a Unity Developer with 1.5 years of experience in game development.
       <br />Proficient in C#, OOP, and Unity, with expertise in Particle System, Shader, UI Design, Firebase, and AdMob.
       <br />I have a strong background in game mechanics, graphics optimization, and monetization strategies.
       <br />Passionate about creating immersive gaming experiences and continuously improving my skills.
@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of [Your Name]" />
+      <img src="img/avatar.png" alt="Photo of [Your Name]" />
     </div>
 
     <div style="clear:both"></div>
@@ -81,13 +81,6 @@
 
       <h3>PTIT HCM (2020 - 2025)</h3>
       <h4>Information Technology</h4>
-
-      <h2>Languages</h2>
-      <h3>English</h3>
-      <div>Proficient in technical and conversational English.</div>
-
-      <h3>Vietnamese</h3>
-      <div>Native speaker.</div>
 
       <h2>Hobbies & Interests</h2>
       <div>

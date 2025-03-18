@@ -11,6 +11,8 @@
     "allowSyntheticDefaultImports": true,
     "sourceMap": true,
     "baseUrl": ".",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
     "types": [
       "webpack-env"
     ],

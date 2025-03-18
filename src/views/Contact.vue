@@ -3,18 +3,18 @@
     
     <h1>Let's get in touch</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about cooking, kittens or anything else.</div>
+    <div style="margin-bottom:40px;">I'm looking for a job!<br/>Please contact me about any opportunities.</div>
 
     <ul>
-      <li>
+      <!-- <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
         <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
-      </li>
+      </li> -->
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:my@email.com" target="_blank">my@email.com</a>
+        <a href="mailto:letrongchien472002@gmail.com" target="_blank">letrongchien472002@gmail.com</a>
       </li>
-      <li>
+      <!-- <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
         <a href="https://www.linkedin.com/me" target="_blank">linkedin.com/me</a>
       </li>
@@ -33,7 +33,7 @@
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
         <a href="https://steamcommunity.com/id/me" target="_blank">steam.com/me</a>
-      </li>
+      </li> -->
     </ul>
 
   </div>
