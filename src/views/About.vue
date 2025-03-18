@@ -21,7 +21,7 @@
     </div>
 
     <div class="photo">
-      <img src="img/avatar.jpg" alt="Avatar of Chien" /> 
+      <img src="img/avatar.png" alt="Avatar of Chien" /> 
     </div>
 
     <div style="clear:both"></div>
