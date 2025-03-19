@@ -14,6 +14,10 @@
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:letrongchien472002@gmail.com" target="_blank">letrongchien472002@gmail.com</a>
       </li>
+      <li>
+        <i class="fa fa-phone fa-lg fa-fw"></i>
+        <a href="tel:+84334164873">+84334164873</a>
+      </li>
       <!-- <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
         <a href="https://www.linkedin.com/me" target="_blank">linkedin.com/me</a>

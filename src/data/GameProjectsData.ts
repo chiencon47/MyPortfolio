@@ -4,150 +4,114 @@ export default [
     new ProjectData("project-1", "Galaxy Hunter", "img/projects/galaxy-hunter.jpg", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     Embark on an epic space adventure in Galaxy Hunter, an action-packed shoot 'em up where you take control of a customizable starfighter!
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://youtube.com/shorts/pjmU-fdNeWk" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/pjmU-fdNeWk" frameborder="0" allowfullscreen></iframe>
     </div>
-    // <div class="paragraph center">
-    //     <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    // </div>
+    <div class="paragraph center">
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1sME7a4mE6YGmhIoNFGfJvSqlHThsH-5D" target="_blank">Download</a></p>
+    </div>
 
     <div class="paragraph">
-        Main features :
+        In charge of work :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Level design</li>
+        <li>UI Designer</li>
+        <li>Core game programming</li>
+        <li>UI illustration</li>
+        <li>Effect design</li>
+        <li>Animation coding</li>
+        <li>Programming secondary features</li>
         </ul>
     </div>
 
-    <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-    </div>
     `, "#23bd69", true),
     new ProjectData("project-2", "Flower Shop", "img/projects/flower-shop.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        Welcome to Flower Shop, the perfect app for flower lovers and creative minds! Dive into a colorful world where you can explore different flower species, craft stunning floral products, and run your very own flower shop.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://youtu.be/g0jov2END8E?si=7NQ_dcQwYqnYLsj-" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/g0jov2END8E" frameborder="0" allowfullscreen></iframe>
     </div>
-
+    <div class="paragraph center">
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1jWaYXhmzccPV0fM7SroWAo1P0915rvU1" target="_blank">Download</a></p>
+    </div>
     <div class="paragraph">
-        Main features :
+        In charge of work :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Level design</li>
+        <li>UI Designer</li>
+        <li>Core game programming</li>
+        <li>UI illustration</li>
+        <li>Effect design</li>
+        <li>Animation coding</li>
+        <li>Programming secondary features</li>
         </ul>
     </div>
 
     <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Color the flag", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "Color the flag", "img/projects/color-the-flag.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        Welcome to Color The Flag: Paint Puzzle, where vibrant colors meet exciting challenges! Immerse yourself in the art of flag design as you embark on a colorful journey around the world. Travel across the globe and train your brain by memorizing and painting all the flags!
     </div>
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" target="_blank">Download</a></p>
+    </div>
+    <div class="paragraph">
+        In charge of work :
+        <ul>
+        <li>Level design</li>
+        <li>Effect design</li>
+        <li>Programming secondary features</li>
+        </ul>
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "2248", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "2248", "img/projects/2248.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+    Welcome to 2248: Number Puzzle, a fun and addictive number-connecting game! Challenge your mind by linking matching numbers to create bigger ones and reach the highest score. In 2248, you can make friends, compete on the leaderboard, and see how you rank against players worldwide. Train your brain, relax, and enjoy the ultimate number puzzle experience!
     </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
+        <iframe class="youtube" src="https://youtube.com/embed/337Rb9k4W48" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1VxEIYYI23ybXYM6UEV41jVtDUL15nO2R" target="_blank">Download</a></p>
+    </div>
+    <div class="paragraph">
+       In charge of work :
+        <ul>
+        <li>Friends and Leaderboard system</li>
+        <li>UI Designer</li>
+        <li>UI illustration</li>
+        <li>Programming secondary features</li>
+        </ul>
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "Merge Cube", "img/projects/project-5-icon.png", `
+    new ProjectData("project-5", "Merge Cube", "img/projects/merge-cube.png", `
     <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
+        Merge Cube is a fun merging game where you combine blocks of the same level to create bigger ones! Merge wisely, unlock new levels, and achieve the highest score. Are you ready for the challenge?
     </div>
-    
+     <div class="paragraph center">
+        <iframe class="youtube" src="https://youtube.com/embed/R5NGerkM1zE" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1MW3S5FGre0p_HD62Xy7fCcO9_FPVygHP" target="_blank">Download</a></p>
+    </div>
     <div class="paragraph">
-        Main features :
+       In charge of work :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Level design</li>
+        <li>UI Designer</li>
+        <li>Core game programming</li>
+        <li>UI illustration</li>
+        <li>Effect design</li>
+        <li>Animation coding</li>
+        <li>Programming secondary features</li>
         </ul>
     </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    `, "#e48246")
 ];
