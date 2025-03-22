@@ -71,7 +71,7 @@ export default [
             <li>Programming secondary features</li>
             </ul>
         </div>
-        `),
+        `, "#383838"),
     new ProjectData("project-9", "Fixel by number", "img/projects/pixel-number.png", `
         <div class="paragraph">
             Fixel by number
@@ -94,7 +94,7 @@ export default [
             <li>Programming secondary features</li>
             </ul>
         </div>
-    `),
+    `, "#5a78af"),
     new ProjectData("project-10", "Water Sort", "img/projects/water.png", `
         <div class="paragraph">
             Water sort

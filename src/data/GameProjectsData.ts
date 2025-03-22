@@ -71,7 +71,7 @@ export default [
         </ul>
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "2248", "img/projects/2248.png", `
+    new ProjectData("project-4", "2248", "img/projects/2248-icon.png", `
     <div class="paragraph">
     Welcome to 2248: Number Puzzle, a fun and addictive number-connecting game! Challenge your mind by linking matching numbers to create bigger ones and reach the highest score. In 2248, you can make friends, compete on the leaderboard, and see how you rank against players worldwide. Train your brain, relax, and enjoy the ultimate number puzzle experience!
     </div>

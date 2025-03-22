@@ -3,7 +3,7 @@
     <h1>Other Project</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some of my personal projects when I first started learning game making.
+      Some of my other projects.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
