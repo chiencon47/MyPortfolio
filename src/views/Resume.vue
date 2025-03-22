@@ -13,9 +13,6 @@
       <br />
       <br />Besides game development, I enjoy exploring new technologies, designing creative UI/UX, and optimizing game performance.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-      </div>
     </div>
     <div class="photo">
       <img src="img/avatar.png" alt="Photo of [Your Name]" />

@@ -57,10 +57,10 @@ export default [
         Welcome to Color The Flag: Paint Puzzle, where vibrant colors meet exciting challenges! Immerse yourself in the art of flag design as you embark on a colorful journey around the world. Travel across the globe and train your brain by memorizing and painting all the flags!
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://youtube.com/embed/wO6PwaF3AOc" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="paragraph center">
-        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" target="_blank">Download</a></p>
+        <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=16xyNAzYqbjOgo5Pu8MOQQk2Qa4mkUlJh" target="_blank">Download</a></p>
     </div>
     <div class="paragraph">
         In charge of work :
