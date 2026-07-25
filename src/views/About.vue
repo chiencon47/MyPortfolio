@@ -11,7 +11,7 @@
           Beyond coding, I enjoy exploring design tools like Figma and Photoshop to enhance the player experience.
         </div>
 
-        <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">projects</router-link>, on <router-link to="/other-projects">other projects</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+        <div style="margin-top: 20px;">Have a look at my <router-link to="/">personal projects</router-link>, and at <router-link to="/resume">a few things</router-link> I've taken part in as well.</div>
 
         <div style="margin-top: 40px;">
           I'm <strong>currently looking for new opportunities</strong> as a Unity Developer.

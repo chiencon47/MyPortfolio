@@ -1,9 +1,8 @@
 <template>
   <div class="header">
     <div class="nav-bar">
-      <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Project</router-link>
-      <router-link to="/other-projects">Other Project</router-link>
+      <router-link to="/">Personal Projects</router-link>
+      <router-link to="/about">About me</router-link>
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
