@@ -10,9 +10,13 @@
         text-align: center;
     }
 
+    // Giu khung 16:9 theo be ngang man hinh, khong ep chieu cao co dinh
+    // (min-height cu lam video bi vien den tren duoi khi man hinh hep)
     iframe.youtube {
         width: 100%;
-        min-height: 300px;
+        aspect-ratio: 16 / 9;
+        border: 0;
+        display: block;
     }
 
     .phone-screenshot {
@@ -43,7 +47,7 @@
     @media only screen and (min-width: 620px){
         iframe.youtube {
             max-width: 728px;
-            height: 409px;
+            margin: 0 auto;
         }
 
         .phone-screenshot {

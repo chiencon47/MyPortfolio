@@ -67,8 +67,9 @@ export default Vue.extend({
 <style scoped>
 
 .project-item {
-  height: 300px;
-  margin-bottom: 20px;
+  /* Chieu cao nay chi ap dung cho dien thoai; tu 620px tro len grid tu tinh lai */
+  height: 220px;
+  margin-bottom: 16px;
   width: 100%;
   cursor: pointer;
   position: relative;

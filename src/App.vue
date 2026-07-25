@@ -49,7 +49,8 @@ html, body {
 
   font-size: 1.1em;
   line-height: 1.6em;
-  text-align: justify;
+  // Can trai o moi kich thuoc: justify tren cot hep dien thoai tao khoang trang loang lo giua cac tu
+  text-align: left;
 }
 
 h1, h2, h3, h4, h5 {
@@ -78,10 +79,22 @@ h1 {
     padding: 12px;
   }
 
+@media only screen and (max-width: 620px){
+
+  h1 {
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+
+  .main {
+    padding: 16px 20px 48px;
+  }
+}
+
 @media only screen and (min-width: 620px){
 
   #app {
-    text-align: left;
     line-height: 1.8em;
   }
 

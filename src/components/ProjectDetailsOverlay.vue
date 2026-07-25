@@ -100,6 +100,28 @@ a.dialog-close-button {
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 620px){
+  .dialog {
+    margin: 10px;
+  }
+
+  h1.dialog-title {
+    /* Chua chan cho nut dong o goc phai, tranh chu de len icon */
+    padding: 18px 46px;
+    font-size: 1.15em;
+  }
+
+  .dialog-content {
+    padding: 16px;
+  }
+
+  .dialog-close {
+    top: 12px;
+    right: 10px;
+    padding: 6px 10px;
+  }
+}
+
 @media only screen and (min-width: 620px){
   .dialog {
     margin: 0 auto;

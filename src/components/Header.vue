@@ -50,13 +50,19 @@ a {
 
 @media only screen and (max-width: 620px){
   .nav-bar {
-    line-height: 2em;
+    // Can giua de 4 muc xuong 2 dong deu nhau thay vi lech phai lom com
+    text-align: center;
+    padding: 14px 10px 8px;
+    line-height: 1.7em;
+    font-size: 0.85em;
   }
 
   a {
-    margin-left: 9px;
-    margin-right: 9px;
-    padding-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 8px;
+    // Vung cham du lon cho ngon tay
+    padding-top: 4px;
+    padding-bottom: 4px;
   }
 }
 
