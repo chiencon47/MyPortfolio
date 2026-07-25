@@ -4,10 +4,10 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Chien</strong>, a passionate Unity Developer with 1.5 years of experience.<br/>
-        I specialize in developing and optimizing gameplay using C# and Unity, creating stunning particle effects, and designing intuitive UI.<br/>
-        I also have experience working with Shaders, Client-Server systems, Firebase integration, and AdMob monetization.<br/>
-        Beyond coding, I enjoy exploring new design tools like Figma, Photoshop, and Illustrator to enhance user experience.
+        I'm <strong>Chien</strong>, a Unity Developer with <strong>3+ years</strong> of experience building Hyper-Casual and Casual mobile games.<br/>
+        I've contributed to products with <strong>200M+</strong> downloads, focusing on gameplay development, scalable system architecture and performance optimization.<br/>
+        I also work on UI development, particle systems and shaders, and third-party SDK integration (Firebase, IronSource, AppLovin MAX, AdMob, IAP).<br/>
+        Beyond coding, I enjoy exploring design tools like Figma and Photoshop to enhance the player experience.
     </div>
 
 

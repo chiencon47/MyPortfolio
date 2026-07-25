@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Le Trong Chien</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #1a1a1a;
+            background-color: #f5f5f5;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        .cv-container {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: #ffffff;
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            grid-template-rows: auto 1fr;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        /* Top Header */
+        .header-banner {
+            grid-column: 1 / -1;
+            background-color: #0b1a30;
+            color: #ffffff;
+            padding: 35px 40px 25px 290px;
+            position: relative;
+        }
+
+        .header-banner h1 {
+            font-size: 28px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+
+        .header-banner p {
+            font-size: 15px;
+            color: #d0d7de;
+            font-weight: 400;
+        }
+
+        /* Left Column */
+        .sidebar {
+            background-color: #e9ecef;
+            padding: 0 20px 30px 20px;
+            position: relative;
+        }
+
+        .avatar-container {
+            margin-top: -95px;
+            margin-bottom: 25px;
+            width: 75%;
+            height: 160px;
+            background-color: #ccc;
+            overflow: hidden;
+            border: 2px solid #ffffff;
+        }
+
+        .avatar-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sidebar-section {
+            margin-bottom: 25px;
+        }
+
+        .sidebar-title {
+            font-size: 16px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .contact-item {
+            font-size: 13.5px;
+            color: #222222;
+            margin-bottom: 12px;
+            word-break: break-all;
+            line-height: 1.4;
+        }
+
+        .contact-label {
+            font-weight: 700;
+            color: #000000;
+            display: block;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 2px;
+        }
+
+        .contact-item a {
+            color: #222222;
+            text-decoration: underline;
+        }
+
+        .divider {
+            height: 1px;
+            background-color: #bbb;
+            margin: 20px 0;
+        }
+
+        .skills-list {
+            list-style: none;
+        }
+
+        .skills-list li {
+            font-size: 13px;
+            line-height: 1.45;
+            color: #222222;
+            margin-bottom: 16px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .skills-list li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: -1px;
+            font-size: 14px;
+        }
+
+        /* Right Column */
+        .main-content {
+            padding: 30px 40px 30px 30px;
+        }
+
+        .main-section {
+            margin-bottom: 25px;
+        }
+
+        .section-title {
+            font-size: 18.36px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #000000;
+            margin-bottom: 12px;
+        }
+
+        .summary-text {
+            font-size: 14.58px;
+            line-height: 1.5;
+            color: #333333;
+        }
+
+        .job-block {
+            margin-bottom: 20px;
+        }
+
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 3px;
+        }
+
+        .job-title {
+            font-size: 15.66px;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .job-date {
+            font-size: 14.04px;
+            color: #222222;
+        }
+
+        .job-subtitle {
+            font-size: 14.58px;
+            font-weight: 700;
+            color: #000000;
+            margin-top: 8px;
+            margin-bottom: 8px;
+        }
+
+        .job-tasks {
+            list-style: none;
+        }
+
+        .job-tasks li {
+            font-size: 14.04px;
+            line-height: 1.5;
+            color: #333333;
+            margin-bottom: 6px;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .job-tasks li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: -1px;
+        }
+
+        .project-link {
+            font-size: 14.04px;
+            color: #0b1a30;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+
+        .education-block {
+            margin-bottom: 10px;
+        }
+
+        .edu-title {
+            font-size: 15.12px;
+            font-weight: 700;
+            color: #000000;
+        }
+
+        .edu-date {
+            font-size: 14.04px;
+            color: #222222;
+            margin-top: 4px;
+        }
+
+        @media print {
+            body {
+                background: none;
+            }
+            .cv-container {
+                box-shadow: none;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <!-- Header -->
+    <div class="header-banner">
+        <h1>LE TRONG CHIEN</h1>
+        <p>Unity Developer</p>
+    </div>
+
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+        <div class="avatar-container">
+            <img src="/Users/chienle/Downloads/avatar.png" alt="Avatar - Le Trong Chien">
+        </div>
+
+        <!-- DETAILS -->
+        <div class="sidebar-section">
+            <h2 class="sidebar-title">DETAILS</h2>
+            
+            <div class="contact-item">
+                <span class="contact-label">Date of Birth</span>
+                <span>04/07/2002</span>
+            </div>
+            <div class="contact-item">
+                <span class="contact-label">Email</span>
+                <span>letrongchien472002@gmail.com</span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-label">Phone</span>
+                <span>0334164873</span>
+            </div>
+            
+            <div class="contact-item">
+                <span class="contact-label">Portfolio</span>
+                <a href="https://chiencon47.github.io/MyPortfolio" target="_blank">PERSONAL PROJECTS</a>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="sidebar-section">
+            <h2 class="sidebar-title">SKILLS</h2>
+            <ul class="skills-list">
+                <li><strong>Programming & Architecture:</strong> C#, Unity (2D/3D), OOP, SOLID, Design Patterns, Dependency Injection, Decoupled Architecture.</li>
+                <li><strong>Optimization & Profiling:</strong> Performance Optimization, Memory Optimization, App Size Reduction, Addressables, AssetBundles, Unity Profiler, Frame Debugger.</li>
+                <li><strong>Gameplay & Graphics:</strong> Gameplay Systems, UI Development (UGUI/UI Toolkit), Particle Systems, Shader Graph / HLSL Shaders.</li>
+                <li><strong>Services & Analytics:</strong> Firebase (Remote Config, Crashlytics,...), Meta SDK, AppsFlyer, GameAnalytics.</li>
+                <li><strong>Monetization & Ads:</strong> Google AdMob, IronSource LevelPlay, AppLovin MAX, In-App Purchases (IAP).</li>
+                <li><strong>Tools & Workflow:</strong> Git, Jira, ClickUp, Confluence, Figma, Photoshop, Agile/Scrum.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Right Content -->
+    <div class="main-content">
+        <!-- Summary -->
+        <div class="main-section">
+            <h2 class="section-title">SUMMARY</h2>
+            <p class="summary-text">
+                Unity Game Developer with <strong>3+ years</strong> of experience developing <strong>Hyper-Casual and Casual</strong> mobile games. Contributed to products with <strong>200M+</strong> downloads, specializing in gameplay development, scalable system architecture, performance optimization, and third-party SDK integration.
+            </p>
+        </div>
+
+        <!-- Experience -->
+        <div class="main-section">
+            <h2 class="section-title">EXPERIENCE</h2>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <span class="job-title">Unity Developer - Uplive VN</span>
+                </div>
+                <div class="job-date">Jul 2025 — Jul 2026</div>
+                <p class="job-subtitle">Contributed to multiple hyper-casual and casual mobile games with over 200M+ downloads.</p>
+                <ul class="job-tasks">
+                    <li>Developed and maintained gameplay features using Unity and C#.</li>
+                    <li>Designed scalable game systems with clean, maintainable code.</li>
+                    <li>Optimized performance, memory usage, loading time, and app size.</li>
+                    <li>Integrated Firebase, client-server APIs, and third-party SDKs (IronSource, AppLovin MAX, AdMob).</li>
+                    <li>Collaborated with cross-functional teams to deliver and maintain live game features.</li>
+                </ul>
+            </div>
+
+            <div class="job-block">
+                <div class="job-header">
+                    <span class="job-title">Unity Developer - Mason Game VN</span>
+                </div>
+                <div class="job-date">Aug 2023 — Jul 2025</div>
+                <p class="job-subtitle">Worked on multiple hyper-casual and casual mobile games.</p>
+                <ul class="job-tasks">
+                    <li>Developed gameplay features and scalable systems.</li>
+                    <li>Optimized performance, memory usage, and app size.</li>
+                    <li>Integrated UI, VFX, and third-party SDKs.</li>
+                    <li>Implemented mobile ad monetization.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Personal Projects (Thêm mới) -->
+        <div class="main-section">
+            <h2 class="section-title">PERSONAL PROJECTS</h2>
+            <div class="job-block">
+                <div class="job-header">
+                    <span class="job-title">Game Portfolio & Side Projects</span>
+                </div>
+                <p class="job-subtitle">Collection of personal games, prototypes.</p>
+                <p class="summary-text" style="margin-bottom: 6px;">Check out my full portfolio and source code here:</p>
+                <a href="https://chiencon47.github.io/MyPortfolio" target="_blank" class="project-link">PERSONAL PROJECTS</a>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="main-section">
+            <h2 class="section-title">EDUCATION</h2>
+            <div class="education-block">
+                <div class="edu-title">Information Technology, Posts and Telecommunications Institute of Technology HCM</div>
+                <div class="edu-date">Oct 2020 — Jul 2025</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

@@ -3,19 +3,18 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>[Le Trong Chien]</strong>, a Unity Developer with 1.5 years of experience in game development.
-      <br />Proficient in C#, OOP, and Unity, with expertise in Particle System, Shader, UI Design, Firebase, and AdMob.
-      <br />I have a strong background in game mechanics, graphics optimization, and monetization strategies.
-      <br />Passionate about creating immersive gaming experiences and continuously improving my skills.
+      I'm <strong>Le Trong Chien</strong>, a Unity Developer with <strong>3+ years</strong> of experience developing Hyper-Casual and Casual mobile games.
+      <br />I've contributed to products with <strong>200M+</strong> downloads, specializing in gameplay development, scalable system architecture, performance optimization, and third-party SDK integration.
+      <br />Proficient in C#, OOP, SOLID and design patterns, with hands-on experience in UI development, particle systems, shaders, Firebase and ad monetization.
       <br />
-      <br />If you have any opportunities, feel free to 
+      <br />If you have any opportunities, feel free to
       <router-link to="/contact">contact me</router-link>.
       <br />
       <br />Besides game development, I enjoy exploring new technologies, designing creative UI/UX, and optimizing game performance.
 
     </div>
     <div class="photo">
-      <img src="img/avatar.png" alt="Photo of [Your Name]" />
+      <img src="img/avatar.png" alt="Photo of Le Trong Chien" />
     </div>
 
     <div style="clear:both"></div>
@@ -23,52 +22,87 @@
     <div class="full-content">
       <h2>Work Experience</h2>
 
-      <h3>Unity Developer</h3>
-      <h4>1.5 Years Experience</h4>
+      <h3>Unity Developer - Uplive VN</h3>
+      <h4>Jul 2025 - Jul 2026</h4>
 
+      <div>Contributed to multiple hyper-casual and casual mobile games with over 200M+ downloads.</div>
       <ul>
-        <li>Developed and optimized gameplay using C# and Unity.</li>
-        <li>Designed and implemented Particle Systems for game effects.</li>
-        <li>Worked with Shaders to enhance graphics quality.</li>
-        <li>Created and optimized UI designs for better user experience.</li>
-        <li>Integrated Firebase for data storage and player management.</li>
-        <li>Implemented and optimized AdMob ads for monetization.</li>
-        <li>Developed and maintained Client-Server architecture.</li>
+        <li>Developed and maintained gameplay features using Unity and C#.</li>
+        <li>Designed scalable game systems with clean, maintainable code.</li>
+        <li>Optimized performance, memory usage, loading time, and app size.</li>
+        <li>Integrated Firebase, client-server APIs, and third-party SDKs (IronSource, AppLovin MAX, AdMob).</li>
+        <li>Collaborated with cross-functional teams to deliver and maintain live game features.</li>
+      </ul>
+
+      <h3>Unity Developer - Mason Game VN</h3>
+      <h4>Aug 2023 - Jul 2025</h4>
+
+      <div>Worked on multiple hyper-casual and casual mobile games.</div>
+      <ul>
+        <li>Developed gameplay features and scalable systems.</li>
+        <li>Optimized performance, memory usage, and app size.</li>
+        <li>Integrated UI, VFX, and third-party SDKs.</li>
+        <li>Implemented mobile ad monetization.</li>
       </ul>
 
       <h2>Skills</h2>
 
       <div class="skill-set">
-        <h3>Game Development</h3>
+        <h3>Programming & Architecture</h3>
         <ul>
-          <li>Unity</li>
-          <li>C# Programming</li>
-          <li>OOP & ECS</li>
+          <li>C#, Unity (2D/3D)</li>
+          <li>OOP, SOLID, Design Patterns</li>
+          <li>Dependency Injection</li>
+          <li>Decoupled Architecture</li>
         </ul>
       </div>
 
       <div class="skill-set">
-        <h3>Graphics & Effects</h3>
+        <h3>Optimization & Profiling</h3>
         <ul>
-          <li>Particle System</li>
-          <li>Shader</li>
+          <li>Performance & Memory Optimization</li>
+          <li>App Size Reduction</li>
+          <li>Addressables, AssetBundles</li>
+          <li>Unity Profiler, Frame Debugger</li>
         </ul>
       </div>
 
       <div class="skill-set">
-        <h3>UI/UX Design</h3>
+        <h3>Gameplay & Graphics</h3>
         <ul>
-          <li>Figma</li>
-          <li>Photoshop & Illustrator</li>
+          <li>Gameplay Systems</li>
+          <li>UI Development (UGUI / UI Toolkit)</li>
+          <li>Particle Systems</li>
+          <li>Shader Graph / HLSL Shaders</li>
         </ul>
       </div>
 
       <div class="skill-set">
-        <h3>Networking & Monetization</h3>
+        <h3>Services & Analytics</h3>
         <ul>
-          <li>Firebase</li>
-          <li>Client-Server</li>
-          <li>AdMob</li>
+          <li>Firebase (Remote Config, Crashlytics)</li>
+          <li>Meta SDK</li>
+          <li>AppsFlyer</li>
+          <li>GameAnalytics</li>
+        </ul>
+      </div>
+
+      <div class="skill-set">
+        <h3>Monetization & Ads</h3>
+        <ul>
+          <li>Google AdMob</li>
+          <li>IronSource LevelPlay</li>
+          <li>AppLovin MAX</li>
+          <li>In-App Purchases (IAP)</li>
+        </ul>
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools & Workflow</h3>
+        <ul>
+          <li>Git, Jira, ClickUp, Confluence</li>
+          <li>Figma, Photoshop</li>
+          <li>Agile / Scrum</li>
         </ul>
       </div>
 
@@ -76,8 +110,8 @@
 
       <h2>Education</h2>
 
-      <h3>PTIT HCM (2020 - 2025)</h3>
-      <h4>Information Technology</h4>
+      <h3>Posts and Telecommunications Institute of Technology HCM</h3>
+      <h4>Information Technology, Oct 2020 - Jul 2025</h4>
 
       <h2>Hobbies & Interests</h2>
       <div>
@@ -165,8 +199,10 @@ h4 {
   }
 
   .skill-set {
-    float: left;
-    padding-right: 60px; 
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    padding-right: 60px;
   }
 }
 </style>
