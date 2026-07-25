@@ -177,9 +177,13 @@ h4 {
   padding-bottom: 10px;
 }
 
+/* Giu dung ty le goc cua anh du anh nguon co kich thuoc nao */
 .photo img {
-  height: 300px;
   width: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .photo {
