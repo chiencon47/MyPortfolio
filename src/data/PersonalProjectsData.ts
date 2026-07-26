@@ -12,20 +12,6 @@ export default [
     <div class="paragraph center">
         <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1sME7a4mE6YGmhIoNFGfJvSqlHThsH-5D" target="_blank">Download</a></p>
     </div>
-
-    <div class="paragraph">
-        In charge of work :
-        <ul>
-        <li>Level design</li>
-        <li>UI Designer</li>
-        <li>Core game programming</li>
-        <li>UI illustration</li>
-        <li>Effect design</li>
-        <li>Animation coding</li>
-        <li>Programming secondary features</li>
-        </ul>
-    </div>
-
     `, "#23bd69", true),
     new ProjectData("project-2", "Flower Shop", "img/projects/flower-shop.png", `
     <div class="paragraph">
@@ -36,18 +22,6 @@ export default [
     </div>
     <div class="paragraph center">
         <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1jWaYXhmzccPV0fM7SroWAo1P0915rvU1" target="_blank">Download</a></p>
-    </div>
-    <div class="paragraph">
-        In charge of work :
-        <ul>
-        <li>Level design</li>
-        <li>UI Designer</li>
-        <li>Core game programming</li>
-        <li>UI illustration</li>
-        <li>Effect design</li>
-        <li>Animation coding</li>
-        <li>Programming secondary features</li>
-        </ul>
     </div>
     `, "#5a78af"),
     new ProjectData("project-3", "Color the flag", "img/projects/color-the-flag.png", `
@@ -60,14 +34,6 @@ export default [
     <div class="paragraph center">
         <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=16xyNAzYqbjOgo5Pu8MOQQk2Qa4mkUlJh" target="_blank">Download</a></p>
     </div>
-    <div class="paragraph">
-        In charge of work :
-        <ul>
-        <li>Level design</li>
-        <li>Effect design</li>
-        <li>Programming secondary features</li>
-        </ul>
-    </div>
     `, "#383838"),
     new ProjectData("project-4", "2248", "img/projects/2248-icon.png", `
     <div class="paragraph">
@@ -78,15 +44,6 @@ export default [
     </div>
     <div class="paragraph center">
         <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1VxEIYYI23ybXYM6UEV41jVtDUL15nO2R" target="_blank">Download</a></p>
-    </div>
-    <div class="paragraph">
-       In charge of work :
-        <ul>
-        <li>Friends and Leaderboard system</li>
-        <li>UI Designer</li>
-        <li>UI illustration</li>
-        <li>Programming secondary features</li>
-        </ul>
     </div>
     `, "#e80fb7"),
     new ProjectData("project-5", "Merge Cube", "img/projects/merge-cube.png", `
@@ -99,18 +56,6 @@ export default [
     <div class="paragraph center">
         <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1MW3S5FGre0p_HD62Xy7fCcO9_FPVygHP" target="_blank">Download</a></p>
     </div>
-    <div class="paragraph">
-       In charge of work :
-        <ul>
-        <li>Level design</li>
-        <li>UI Designer</li>
-        <li>Core game programming</li>
-        <li>UI illustration</li>
-        <li>Effect design</li>
-        <li>Animation coding</li>
-        <li>Programming secondary features</li>
-        </ul>
-    </div>
     `, "#e48246"),
     new ProjectData("project-7", "Zuma", "img/projects/zuma.png", `
         <div class="paragraph">
@@ -121,18 +66,6 @@ export default [
         </div>
         <div class="paragraph center">
             <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1WJArtlzIH4zFegnTmGI_W2MsjgrJVCrY" target="_blank">Download</a></p>
-        </div>
-        <div class="paragraph">
-           In charge of work :
-            <ul>
-            <li>Level design</li>
-            <li>UI Designer</li>
-            <li>Core game programming</li>
-            <li>UI illustration</li>
-            <li>Effect design</li>
-            <li>Animation coding</li>
-            <li>Programming secondary features</li>
-            </ul>
         </div>
             `, "#1ca1e2"),
     new ProjectData("project-8", "All in Hole", "img/projects/all-in-hole.png", `
@@ -145,18 +78,6 @@ export default [
         <div class="paragraph center">
             <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1ZWXkZOlbZq_0NGyZU3kY6Nrb-W1TTXtQ" target="_blank">Download</a></p>
         </div>
-        <div class="paragraph">
-           In charge of work :
-            <ul>
-            <li>Level design</li>
-            <li>UI Designer</li>
-            <li>Core game programming</li>
-            <li>UI illustration</li>
-            <li>Effect design</li>
-            <li>Animation coding</li>
-            <li>Programming secondary features</li>
-            </ul>
-        </div>
         `, "#383838"),
     new ProjectData("project-9", "Fixel by number", "img/projects/pixel-number.png", `
         <div class="paragraph">
@@ -168,18 +89,6 @@ export default [
         <div class="paragraph center">
             <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1G55kDD4VZUa16HE90RikomLEinYF5_Eg" target="_blank">Download</a></p>
         </div>
-        <div class="paragraph">
-           In charge of work :
-            <ul>
-            <li>Level design</li>
-            <li>UI Designer</li>
-            <li>Core game programming</li>
-            <li>UI illustration</li>
-            <li>Effect design</li>
-            <li>Animation coding</li>
-            <li>Programming secondary features</li>
-            </ul>
-        </div>
     `, "#5a78af"),
     new ProjectData("project-10", "Water Sort", "img/projects/water.png", `
         <div class="paragraph">
@@ -190,18 +99,6 @@ export default [
         </div>
         <div class="paragraph center">
             <p>Link Apk: <a href="https://drive.google.com/uc?export=download&id=1qm2eviXP-sfTXTIGPtb01tvmZh_ia1UP" target="_blank">Download</a></p>
-        </div>
-        <div class="paragraph">
-           In charge of work :
-            <ul>
-            <li>Level design</li>
-            <li>UI Designer</li>
-            <li>Core game programming</li>
-            <li>UI illustration</li>
-            <li>Effect design</li>
-            <li>Animation coding</li>
-            <li>Programming secondary features</li>
-            </ul>
         </div>
         `, "#e48246"),
 ];
