@@ -35,7 +35,7 @@
       </ul>
 
       <h3>Unity Developer - Mason Game VN</h3>
-      <h4>Aug 2023 - Jul 2025</h4>
+      <h4>Jun 2023 - Jul 2025</h4>
 
       <div>Worked on multiple hyper-casual and casual mobile games.</div>
       <ul>
